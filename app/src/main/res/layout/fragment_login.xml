@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0dde9"
+    tools:context=".authentication.LoginFragment">
+
+    <RelativeLayout
+        android:id="@+id/rlEtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="224dp"
+        >
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#c0dde9"
+            android:contentDescription="TODO"
+            android:src="@drawable/et_background">
+
+        </ImageButton>
+
+        <EditText
+            android:id="@+id/ETEmail"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/charger"
+            android:gravity="center"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rlEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+
+        android:layout_below="@id/rlEtEmail">
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#c0dde9"
+            android:src="@drawable/et_background">
+
+        </ImageButton>
+
+        <EditText
+            android:id="@+id/ETPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/charger"
+            android:gravity="start"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rlLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/rlEt">
+
+        <ImageButton
+            android:id="@+id/BTLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c0dde9"
+            android:src="@drawable/btn_img">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="40sp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/login_btn_txt"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/TVRegisterInLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rlLoginBtn"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/charger"
+        android:gravity="center"
+        android:text="@string/not_registered" />
+
+</RelativeLayout>

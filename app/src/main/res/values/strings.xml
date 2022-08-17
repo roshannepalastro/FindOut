@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">password</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="not_registered">User not registered?Register</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="logout">Logout</string>
+    <string name="feeds">Feeds</string>
+    <string name="post">Post</string>
+    <string name="what_are_your_feeling">What are you Feeling?</string>
+    <string name="hint_news_feed">Rain is cool,but not for singles</string>
+    <string name="news_feeds">News Feeds</string>
+    <string name="news_feed">This section contains the Content that is posted by the user on this app ,it should be interactive during main production</string>
+    <string name="name">Name</string>
+    <string name="refresh">Refresh</string>
+    <string name="roshan_nepal">Roshan Nepal</string>
+    <string name="damak_multiple_campus">Damak Multiple Campus,Damak,Jhapa</string>
+    <string name="edit">EDIT</string>
+    <string name="more_info">More Info</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="address">Address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">SAVE</string>
+    <string name="customise_color">CUSTOMISE COLOR</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="phone_num_example">+977-98xxxxxxxx</string>
+    <string name="address_example">eg:Damak,Jhapa</string>
+    <string name="college_name">College Name</string>
+    <string name="yes">Yes</string>
+</resources>
