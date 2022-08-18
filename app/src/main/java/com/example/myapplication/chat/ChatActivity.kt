@@ -15,7 +15,7 @@ class ChatActivity : AppCompatActivity() {
         setContentView(view)
 
         val textView = binding.TVText
-        val text = "This Feature is getting Integrated very soon"
+        val text = "This Feature is getting Integrated very soon,but it may take some decades"
         textView.text = text
         textView.textSize = 24.0F
     }
