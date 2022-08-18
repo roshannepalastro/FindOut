@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="100dp"
+    android:background="@color/secondary_gray"
+    android:rotationX="3"
     tools:context=".activities.user_profile.ProfileCollapseFragment">
 
 
@@ -30,6 +32,8 @@
         android:id="@+id/cardView"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        app:cardCornerRadius="45dp"
+
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,6 +41,15 @@
         app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/rosh"
+            android:contentDescription="@string/profileimage">
+
+        </ImageView>
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
